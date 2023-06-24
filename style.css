@@ -1,0 +1,180 @@
+/* External CSS */
+
+/* navbar */
+.head{
+    background-size: cover;
+    max-height: 100vh;
+    opacity:1;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+  }
+
+.nav-item{
+    font-size: 17px !important;
+}
+
+.nav-item:hover{
+    transform: scale(1.2);
+    /* transition: all 0.7s ease; */
+
+}
+
+.navbar-brand{
+    font-size: 17px !important;
+}
+
+.navbar-brand:hover{
+    transform: scale(1.2);
+    /* transition: all 0.7s ease; */
+}
+
+/* main page */
+
+#main_container{
+    min-height: 91vh;
+}
+
+#main{
+    min-height: 81vh;
+}
+
+#main_image{
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top:37px;
+}
+
+#main_image:hover{
+    transform: scale(1.2);
+    transition: all 0.7s linear;
+    cursor: pointer;
+}
+
+#intro{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+#main_content{
+    margin-top: 20px !important;
+    margin-bottom: 45px !important;
+}
+
+#name_content{
+    font-size: 32px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: bold;
+}
+
+#sub_content{
+    font-size: 16px;
+    margin-top: 0px !important;
+    font-weight: lighter;
+}
+
+.button{
+    padding: 4px 53px !important;
+    margin-top: 0px !important;
+}
+
+.button:hover{
+    transform: scale(1.1);
+    transition: all 0.6s ease;
+    background-color: #00a173 !important;
+    color: rgb(250, 250, 250);
+}
+
+.btn a{
+    text-decoration: none !important;
+    list-style-type: none !important;
+    color: aliceblue !important;
+}
+
+
+/* Educational background */
+.education{
+    min-height: 100vh;
+}
+
+.Education{
+    margin-top: 45px !important;
+    padding: 10px !important;
+    font-weight: bold;
+    font-size: 32px;
+    background-color: #00a173 !important;
+    color: #000000;
+}
+
+.cards{
+    margin: 41px 0px 41px 0px !important;
+}
+
+.image-card{
+    /* border-radius: 3% !important; */
+    box-shadow: 13px 13px 8px #854b4b !important;
+}
+
+.image-card:hover{
+    transform: scale(1.1);
+    transition: all 0.7s ease-in-out;
+}
+
+.card_content{
+    font-weight: lighter !important;
+    font-size: 17px;
+}
+
+
+/* skills */
+#carouselExampleCaptions{
+    margin-top: 14vh !important;
+}
+
+/* contact */
+
+#contact{
+    background-color:#00a173; 
+    height:93vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+form{
+    background-color: #ffffff !important;
+    /* max-width: 500px !important; */
+    width: 50% !important;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    border-radius: 10px;
+}
+
+.btn{
+    padding: 4px 53px !important;
+    margin-top: 10px !important;
+    justify-content: center !important;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    transition: all 0.6s ease;
+    background-color: #00a173 !important;
+    color: rgb(250, 250, 250);
+}
+
+footer{
+    height: 7vh !important;
+}
+
+footer p{
+    padding-top: 11px !important;
+}
